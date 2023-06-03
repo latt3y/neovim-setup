@@ -1,1 +1,1 @@
-# This is a boileer plate regarding my neovim setup for daily coding use
+# This is a boiler plate regarding my neovim setup for daily coding use
