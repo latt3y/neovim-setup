@@ -5,7 +5,7 @@
 **Please first `cd` into `.config` at your home directory**
 
 After follow this structure as shown below:
-
+```
 ├── nvim
 │   ├── lua/
 │   │   │── lati/   -- Name this folder whatever you want, in my case I called it "lati"
@@ -15,6 +15,7 @@ After follow this structure as shown below:
 │   │   │   │── packer.lua
 │   ├── after/
 │   ├── init.lua
+```
 
 ## Package Installations required for this setup
 
