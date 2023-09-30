@@ -8,7 +8,7 @@
 
 ## List of the Packages used in this setup
 
-- Packer (package manager)
+- [Packer](https://github.com/wbthomason/packer.nvim)
 - Treesitter (highlighting)
 - Colorscheme (theme)
 - Telescope (fuzzy finding)
