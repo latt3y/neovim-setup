@@ -27,13 +27,13 @@ Then please follow this structure as shown below:
 │   ├── init.lua
 ```
 
-## Package Installations required for this setup
+## List of the Packages used in this setup
 
-- Get Packer (package manager)
-- Get Treesitter (highlighting)
-- Get Colorscheme (theme)
-- Get Telescope (fuzzy finding)
-- Get LSP (Language syntax support)
+- Packer (package manager)
+- Treesitter (highlighting)
+- Colorscheme (theme)
+- Telescope (fuzzy finding)
+- LSP (Language syntax support)
 
 
 ### Packer Installation
