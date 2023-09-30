@@ -6,6 +6,14 @@
   This is a minimal config, nothing to fancy or to crazy 😃.
 </p>
 
+## List of the Packages used in this setup
+
+- Packer (package manager)
+- Treesitter (highlighting)
+- Colorscheme (theme)
+- Telescope (fuzzy finding)
+- LSP (Language syntax support)
+
 =====================
 
 **Please first `cd` into `.config` at your home directory**
@@ -26,15 +34,6 @@ Then please follow this structure as shown below:
 │   │   │   │── treesitter.lua
 │   ├── init.lua
 ```
-
-## List of the Packages used in this setup
-
-- Packer (package manager)
-- Treesitter (highlighting)
-- Colorscheme (theme)
-- Telescope (fuzzy finding)
-- LSP (Language syntax support)
-
 
 ### Packer Installation
 
