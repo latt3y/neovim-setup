@@ -6,14 +6,18 @@
 
 After follow this structure as shown below:
 ```
-├── nvim
+├── nvim/
 │   ├── lua/
-│   │   │── lati/   -- Name this folder whatever you want, in my case I called it "lati"
+│   │   │── lati/   -- Name this folder whatever you want
 │   │   │   │── editor.lua
 │   │   │   │── init.lua
 │   │   │   │── keymap.lua
 │   │   │   │── packer.lua
 │   ├── after/
+│   │   │── plugin/
+│   │   │   │── colors.lua
+│   │   │   │── telescope.lua
+│   │   │   │── treesitter.lua
 │   ├── init.lua
 ```
 
