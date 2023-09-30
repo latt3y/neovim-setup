@@ -4,7 +4,7 @@
 
 **Please first `cd` into `.config` at your home directory**
 
-After follow this structure as shown below:
+Then please follow this structure as shown below:
 ```
 ├── nvim/
 │   ├── lua/
