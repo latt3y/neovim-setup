@@ -1,8 +1,12 @@
 <h1>This is my neovim setup for daily usage</h1>
 
-<h2>There is no need to jump around threw different repos to get the code, all the setup will be found here at this **readme document**</h2>
+<p>
+  There is no need to jump around threw different repos to get the code, all the setup will be found here at this **readme document** as far as **this** setups is concerned.
+  For the config code please refer to the code inside the files and just copy/paste.
+  This is a minimal config, nothing to fancy or to crazy.
+</p>
 
-<h3>Please make sure to have this folder/file structure as shown below</h3>
+=====================
 
 **Please first `cd` into `.config` at your home directory**
 
