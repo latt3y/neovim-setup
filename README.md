@@ -38,7 +38,11 @@ Then please follow this structure as shown below:
 
 ### Packer Installation
 
+<p>Clone the repo of packer into your `.config` directory</p>
+
 ```
-> git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
+
+## After this pretty much you can just copy and paste from the files in github 
