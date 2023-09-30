@@ -10,8 +10,8 @@
 
 - [Packer (package manager)](https://github.com/wbthomason/packer.nvim)
 - [Treesitter (highlighting)](https://github.com/nvim-treesitter/nvim-treesitter)
-- Colorscheme (theme)
-- Telescope (fuzzy finding)
+- [Colorscheme (theme)](https://github.com/rose-pine/neovim)
+- [Telescope (fuzzy finding)](https://github.com/nvim-telescope/telescope.nvim)
 - LSP (Language syntax support)
 
 =====================
