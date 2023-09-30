@@ -8,8 +8,8 @@
 
 ## List of the Packages used in this setup
 
-- [Packer](https://github.com/wbthomason/packer.nvim)
-- Treesitter (highlighting)
+- [Packer (package manager)](https://github.com/wbthomason/packer.nvim)
+- [Treesitter (highlighting)](https://github.com/nvim-treesitter/nvim-treesitter)
 - Colorscheme (theme)
 - Telescope (fuzzy finding)
 - LSP (Language syntax support)
