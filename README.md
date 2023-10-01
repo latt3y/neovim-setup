@@ -12,7 +12,7 @@
 - [Treesitter (highlighting)](https://github.com/nvim-treesitter/nvim-treesitter)
 - [Colorscheme (theme)](https://github.com/rose-pine/neovim)
 - [Telescope (fuzzy finding)](https://github.com/nvim-telescope/telescope.nvim)
-- LSP (Language syntax support)
+- [LSP (Language syntax support)](https://github.com/VonHeikemen/lsp-zero.nvim)
 
 =====================
 
