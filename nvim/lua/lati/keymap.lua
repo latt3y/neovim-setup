@@ -15,3 +15,6 @@ vim.keymap.set("n", "N", "Nzzzv")
 -- copy to system clipboard
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
+
+-- delete without saving it into the buffer
+vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
