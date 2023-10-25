@@ -4,6 +4,10 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
+        
+    -- Auto-bracket-close
+    use 'm4xshen/autoclose.nvim'
+
     use {
       'nvim-telescope/telescope.nvim', tag = '0.1.2',
       -- or                            , branch = '0.1.x'
