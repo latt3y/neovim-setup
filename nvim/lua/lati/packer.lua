@@ -32,7 +32,8 @@ return require('packer').startup(function(use)
     }
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
-    
+    use {"akinsho/toggleterm.nvim", tag = '*'}
+        
     -- color theme
     -- use({ 'rose-pine/neovim', as = 'rose-pine' })
     use { "ellisonleao/gruvbox.nvim" }
