@@ -44,4 +44,13 @@ Then please follow this structure as shown below:
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
+### Install RipGrep so that greping works as expected
+
+```
+ brew install ripgrep
+```
+
+- if you are using other OS please find how to install here 
+  https://github.com/BurntSushi/ripgrep
+
 ## After this pretty much you can just copy and paste from the files in github 
