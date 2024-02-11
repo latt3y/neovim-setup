@@ -13,8 +13,11 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 -- window
+-- create window horizontally
 vim.keymap.set("n", '<leader>wl', '<C-w>v')
+-- create window vertically
 vim.keymap.set("n", '<leader>wb', '<C-w>s')
+-- close current window
 vim.keymap.set("n", '<leader>wq', '<C-w>c')
 
 -- close all other windows besides the current one
