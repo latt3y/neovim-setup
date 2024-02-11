@@ -53,4 +53,9 @@ Then please follow this structure as shown below:
 - if you are using other OS please find how to install here 
   https://github.com/BurntSushi/ripgrep
 
+## After pasting the code inside packer.lua, simply run the command below:
+``` :PackerSync ```
+or
+``` :PackerInstall ```
+
 ## After this pretty much you can just copy and paste from the files in github 
