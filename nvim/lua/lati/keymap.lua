@@ -23,7 +23,7 @@ vim.keymap.set("n", '<leader>wq', '<C-w>c')
 -- close all other windows besides the current one
 vim.keymap.set("n", '<leader>wo', '<C-w>o')
 
--- navigate threw windows
+-- navigate between windows
 vim.keymap.set("n", '<leader>l', '<C-w>l')
 vim.keymap.set("n", '<leader>h', '<C-w>h')
 vim.keymap.set("n", '<leader>j', '<C-w>j')
