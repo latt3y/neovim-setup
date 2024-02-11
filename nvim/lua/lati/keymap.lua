@@ -15,7 +15,7 @@ vim.keymap.set("n", "N", "Nzzzv")
 -- window movement
 vim.keymap.set("n", '<leader>wl', '<C-w>v')
 vim.keymap.set("n", '<leader>wb', '<C-w>s')
-vim.keymap.set("n", '<leader>wc', '<C-w>c')
+vim.keymap.set("n", '<leader>wq', '<C-w>c')
 vim.keymap.set("n", '<leader>l', '<C-w>l')
 vim.keymap.set("n", '<leader>h', '<C-w>h')
 vim.keymap.set("n", '<leader>j', '<C-w>j')
