@@ -29,6 +29,10 @@ vim.keymap.set("n", '<leader>h', '<C-w>h')
 vim.keymap.set("n", '<leader>j', '<C-w>j')
 vim.keymap.set("n", '<leader>k', '<C-w>k')
 
+-- go to previous/next file in buffer 
+vim.keymap.set("n", "<leader>pf", ":bprevious<CR>")
+vim.keymap.set("n", "<leader>nf", ":bnext<CR>")
+
 -- copy to system clipboard
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
 vim.keymap.set("n", "<leader>Y", [["+Y]])
