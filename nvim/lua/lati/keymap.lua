@@ -12,10 +12,15 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
--- window movement
+-- window
 vim.keymap.set("n", '<leader>wl', '<C-w>v')
 vim.keymap.set("n", '<leader>wb', '<C-w>s')
 vim.keymap.set("n", '<leader>wq', '<C-w>c')
+
+-- close all other windows besides the current one
+vim.keymap.set("n", '<leader>wo', '<C-w>o')
+
+-- navigate threw windows
 vim.keymap.set("n", '<leader>l', '<C-w>l')
 vim.keymap.set("n", '<leader>h', '<C-w>h')
 vim.keymap.set("n", '<leader>j', '<C-w>j')
