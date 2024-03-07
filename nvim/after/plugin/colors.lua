@@ -15,6 +15,9 @@ require("gruvbox").setup({
     bright_blue = "#acacac",
     neutral_aqua = "#f2e5bc",
   },
+  overrides = {
+    javaScriptFunction = {link = "GruvboxRed"}
+  },
 })
 
 
