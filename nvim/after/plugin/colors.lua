@@ -8,4 +8,14 @@ function InitColors(color)
   -- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 end
 
+require("gruvbox").setup({
+  contrast = "hard",
+  palette_overrides = {
+    bright_aqua = "#ebdbb2",
+    bright_blue = "#acacac",
+    neutral_aqua = "#f2e5bc",
+  },
+})
+
+
 InitColors()
