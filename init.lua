@@ -33,6 +33,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
    end
 });
 
+-- require("lazy").setup({
+-- })
 -- keymaps
 vim.keymap.set("n", "<space><space>", "<cmd>source %<CR>")
 
