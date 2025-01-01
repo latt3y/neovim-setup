@@ -1,1 +1,0 @@
-print("REQUIRED FROM INIT FILE");

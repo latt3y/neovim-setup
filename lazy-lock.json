@@ -1,0 +1,4 @@
+{
+  "flow.nvim": { "branch": "main", "commit": "339242ac70b1dfa2ef7de796634c3c76c4aafe79" },
+  "lazy.nvim": { "branch": "main", "commit": "7e6c863bc7563efbdd757a310d17ebc95166cef3" }
+}
