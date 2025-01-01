@@ -1,4 +1,4 @@
-require("config.lazy");
+require("config.lazy")
 
 vim.keymap.set("n", "<space><space>", "<cmd>source %<CR>")
 
