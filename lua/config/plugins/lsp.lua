@@ -18,12 +18,13 @@ return {
         },
       },
       config = function()
+          local capabilities = require('blink.cmp').get_lsp_capabilities();
           local lsp = require('lspconfig');
 
-          lsp.lua_ls.setup {}
-          lsp.ts_ls.setup {}
-          lsp.clangd.setup {}
-          lsp.sqls.setup {}
+          lsp.lua_ls.setup { capabilities = capabilities }
+          lsp.ts_ls.setup { capabilities = capabilities }
+          lsp.clangd.setup { capabilities = capabilities }
+          lsp.sqls.setup { capabilities = capabilities }
       end
     }
   },
