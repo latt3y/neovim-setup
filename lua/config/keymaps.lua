@@ -1,7 +1,5 @@
 local keymap = vim.keymap;
 
-vim.g.mapleader = " "
-
 keymap.set("n", "<leader>pv", vim.cmd.Ex)
 -- move the highlighted text
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
