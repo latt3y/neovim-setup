@@ -19,6 +19,18 @@ vim.keymap.set("n", '<leader>wq', '<C-w>c')
 -- close all other windows besides the current one
 vim.keymap.set("n", '<leader>wo', '<C-w>o')
 
+-- navigate between windows
+vim.keymap.set("n", '<leader>l', '<C-w>l')
+vim.keymap.set("n", '<leader>h', '<C-w>h')
+vim.keymap.set("n", '<leader>j', '<C-w>j')
+vim.keymap.set("n", '<leader>k', '<C-w>k')
+
+-- go to previous/next file in buffer 
+-- pf - prevous file
+vim.keymap.set("n", "<leader>pf", ":bprevious<CR>")
+-- nf - next file
+vim.keymap.set("n", "<leader>nf", ":bnext<CR>")
+
 -- ==== find files ====
 keymap.set("n", "<leader><leader>", "<cmd>source %<CR>")
 keymap.set("n", "<leader>ff", require("telescope.builtin").find_files)
@@ -29,3 +41,6 @@ keymap.set("n", "<leader>en", function()
     cmd = vim.fn.stdpath("config")
   }
 end)
+
+-- delete without saving it into the buffer
+vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
