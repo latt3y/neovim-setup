@@ -16,7 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
-    { "folke/tokyonight.nvim", config = function() vim.cmd.colorscheme "tokyonight" end },
+    { "p00f/alabaster.nvim", config = function() vim.cmd.colorscheme "alabaster" end },
     { import = "config.plugins" },
   },
 })
