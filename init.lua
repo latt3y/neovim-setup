@@ -13,6 +13,12 @@ opt.softtabstop = 2
 opt.shiftwidth = 2
 opt.expandtab = true
 opt.smartindent = true
+opt.ignorecase = true
+opt.linebreak = true
+opt.spelllang = { "en" }
+opt.splitkeep = "screen"
+opt.splitright = true -- Put new windows right of current
+opt.tabstop = 2 -- Number of spaces tabs count for
 opt.wrap = false
 opt.backup = false
 opt.timeoutlen = 400
@@ -24,6 +30,7 @@ opt.undofile = true
 opt.mouse = 'a'
 opt.hlsearch = false
 opt.incsearch = true
+opt.clipboard = vim.env.SSH_TTY and "" or "unnamedplus" -- Sync with system clipboard
 
 vim.api.nvim_create_autocmd('TextYankPost', {
    desc = "Highlight when yanking text",
@@ -33,8 +40,4 @@ vim.api.nvim_create_autocmd('TextYankPost', {
    end
 });
 
--- require("lazy").setup({
--- })
--- keymaps
 vim.keymap.set("n", "<space><space>", "<cmd>source %<CR>")
-
