@@ -21,7 +21,7 @@ return {
           local lsp = require('lspconfig');
 
           lsp.lua_ls.setup {}
-          lsp.ast_grep.setup {}
+          lsp.ts_ls.setup {}
           lsp.clangd.setup {}
           lsp.sqls.setup {}
       end
