@@ -23,6 +23,6 @@ require("lazy").setup({
 
 require("mason").setup()
 require("mason-lspconfig").setup {
-  ensure_installed = { "lua_ls", "clangd", "ast_grep", "sqls" },
+  ensure_installed = { "lua_ls", "clangd", "sqls" },
   automatic_installation = false,
 }
