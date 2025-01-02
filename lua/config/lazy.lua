@@ -19,3 +19,8 @@ require("lazy").setup({
     { import = "config.plugins" },
   },
 })
+
+require("mason").setup()
+require("mason-lspconfig").setup {
+    ensure_installed = { "lua_ls" },
+}
