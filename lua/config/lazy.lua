@@ -16,7 +16,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
-    { "p00f/alabaster.nvim", config = function() vim.cmd.colorscheme "alabaster" end },
     { import = "config.plugins" },
   },
 })
