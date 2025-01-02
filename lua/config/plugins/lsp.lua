@@ -17,6 +17,14 @@ return {
           },
         },
       },
+      config = function()
+          local lsp = require('lspconfig');
+
+          lsp.lua_ls.setup {}
+          lsp.ast_grep.setup {}
+          lsp.clangd.setup {}
+          lsp.sqls.setup {}
+      end
     }
   },
 }

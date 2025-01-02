@@ -33,11 +33,11 @@ opt.incsearch = true
 opt.clipboard = vim.env.SSH_TTY and "" or "unnamedplus" -- Sync with system clipboard
 
 vim.api.nvim_create_autocmd('TextYankPost', {
-   desc = "Highlight when yanking text",
-   group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
-   callback = function() 
-      vim.highlight.on_yank();
-   end
+  desc = "Highlight when yanking text",
+  group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
+  callback = function() 
+    vim.highlight.on_yank();
+  end
 });
 
 vim.keymap.set("n", "<space><space>", "<cmd>source %<CR>")
