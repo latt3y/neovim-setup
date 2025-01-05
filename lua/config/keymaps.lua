@@ -35,8 +35,6 @@ vim.keymap.set("n", "<leader>nf", ":bnext<CR>")
 keymap.set("n", "<leader><leader>", "<cmd>source %<CR>")
 keymap.set("n", "<leader>ff", require("telescope.builtin").find_files)
 keymap.set("n", "<leader>en", function()
-  -- en - edit neovim
-  -- go to your neovim config files
   require("telescope.builtin").find_files {
     cmd = vim.fn.stdpath("config")
   }
