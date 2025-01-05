@@ -42,3 +42,9 @@ end)
 
 -- delete without saving it into the buffer
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
+
+-- lsp keymap!
+vim.keymap.set('n', 'grn', vim.lsp.buf.rename)
+vim.keymap.set('n', 'gra', vim.lsp.buf.code_action)
+vim.keymap.set('n', 'grr', vim.lsp.buf.references)
+vim.keymap.set('i', '<C-s>', vim.lsp.buf.signature_help)
