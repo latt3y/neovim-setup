@@ -34,6 +34,11 @@ vim.keymap.set("n", "<leader>nf", ":bnext<CR>")
 -- ==== find files ====
 keymap.set("n", "<leader><leader>", "<cmd>source %<CR>")
 keymap.set("n", "<leader>ff", require("telescope.builtin").find_files)
+keymap.set("n", "<leader>gf", require("telescope.builtin").git_files)
+-- keymap.set("n", "<leader>fs", function()
+--     require("telescope.builtin").grep_string({ search = vim.fn.input("Grep > ") });
+-- end)
+
 keymap.set("n", "<leader>en", function()
   require("telescope.builtin").find_files {
     cmd = vim.fn.stdpath("config")
@@ -42,6 +47,10 @@ end)
 
 -- delete without saving it into the buffer
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
+
+-- Better indenting in Visual mode
+vim.keymap.set('v', '>', ">gv")
+vim.keymap.set('v', '<', "<gv")
 
 -- lsp keymap!
 vim.keymap.set('n', 'grn', vim.lsp.buf.rename)
