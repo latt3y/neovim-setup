@@ -20,6 +20,8 @@ opt.tabstop = 2 -- Number of spaces tabs count for
 opt.wrap = false
 opt.backup = false
 opt.timeoutlen = 400
+opt.swapfile = false
+opt.list = true  -- Show some invisible characters (tabs, spaces...
 -- Minimal number of screen lines to keep above and below the cursor.
 opt.scrolloff = 10
 -- Save undo history
@@ -37,4 +39,3 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank();
   end
 });
-
